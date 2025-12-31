@@ -1,0 +1,25 @@
+# Build directories
+build/
+obj/
+*.o
+*.d
+
+# Executables
+raycaster
+*.out
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# IDE
+.vscode/.cmaketools.json
+.vscode/cmake-variants.yaml
+
+# OS
+.DS_Store
+*~
+*.swp
